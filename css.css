@@ -1,0 +1,39 @@
+html{
+    scroll-behavior:smooth;
+}
+
+body {
+    background-color: #a3cbd5;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin: 0;
+    background-attachment: scroll;
+}
+h1, h2, h3 {
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 2px;
+}
+
+  .warning-text {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: red;
+    font-size: 2em;
+    text-align: center;
+    animation: blink 10s infinite;
+  }
+
+  @keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
